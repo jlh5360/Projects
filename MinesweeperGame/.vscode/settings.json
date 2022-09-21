@@ -1,0 +1,23 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.base.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.controls.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.fxml.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.graphics.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.media.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.swing.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.web.jar",
+        "c:\\Users\\13158\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx-swt.jar",
+        "c:\\Users\\13158\\SoftDevII\\junit-platform-console-standalone-1.8.2.jar",
+        "c:\\Users\\anime\\SoftDevII\\junit-platform-console-standalone-1.8.2.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.base.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.controls.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.fxml.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.graphics.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.media.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.swing.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx.web.jar",
+        "c:\\Users\\anime\\SoftDevII\\javafx-sdk-17.0.2\\lib\\javafx-swt.jar"
+    ]
+}
