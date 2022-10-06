@@ -126,17 +126,14 @@ public class MinesweeperGame {
                 try {
                     minesweeper = new Minesweeper(Integer.parseInt(resetString[1]), Integer.parseInt(resetString[2]), Integer.parseInt(resetString[3]));
                     System.out.println("*Game Reset*");
-                    System.out.print("Enter command:  ");
                 } catch(IndexOutOfBoundsException e) {
                     System.out.println("Please enter <rows> <columns> <mines> for the reset command");
-                    System.out.print("Enter command:  ");
                 } catch(NumberFormatException e) {
                     System.out.println("Numbers must be used to specify new game parameters");
-                    System.out.print("Enter command:  ");
                 }
                 
                 System.out.println(minesweeper);
-                System.out.println();
+                System.out.print("Enter command:  ");
                 input = scanner.nextLine();
             }
 
