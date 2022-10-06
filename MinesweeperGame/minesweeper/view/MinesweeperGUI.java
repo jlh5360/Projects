@@ -24,7 +24,7 @@ import minesweeper.model.MinesweeperSolver;
 
 
 public class MinesweeperGUI extends Application{
-    private static final Image MINE = new Image("file:media/images/mine24.png");
+    private static final Image MINE = new Image("file:MinesweeperGame/media/images/mine24.png");
     private static final int ROWS = 10;
     private static final int COLS = 10;
     private static final int MINES = 13;
