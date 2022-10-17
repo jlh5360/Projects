@@ -1,0 +1,30 @@
+/* Logo and navigation bar */
+#about_2 {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+#section h3 {
+    font-size: 25px;
+    background-color: rgb(78, 100, 224);
+    color: white;
+    width: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#section p {
+    font-size: 20px;
+    margin-left: 2em;
+}
+
+#section {
+    width: 65em;
+    margin-left: 15em;
+}
+/* ------------------------------------ */

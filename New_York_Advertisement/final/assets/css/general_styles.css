@@ -1,0 +1,399 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    margin: 2em;
+    padding: 0em;
+    background-color: bisque;
+    color: black;
+    z-index: 1;
+}
+
+/* Logo and navigation bar */
+nav, nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#logo {
+    border-radius: 10%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: -1.25em;
+    left: -9em;
+}
+
+nav ul li li a {
+    display: none;
+}
+
+#navigation_bar {
+    text-align: center;
+    /* margin-left: 1em; */
+}
+
+.options {
+    display: none;
+    font-size: 25px;
+}
+
+.tag:hover .options {
+    display: block;
+    text-align: center;
+    /* justify-content: center;
+    align-self: center; */
+}
+
+/* .tag {
+    width: 7em;
+    text-align: center;
+} */
+
+/* .tag:hover .options {
+    background-color: rgb(140, 215, 236);
+    padding: 0em;
+} */
+
+/* #about_choice .options {
+    display: none;
+} */
+
+.options {
+    display: none;
+    text-align: center;
+    /* position: relative;
+    top: -3em; */
+}
+
+/* .options:hover {
+    position: relative;
+    top: 1em;
+} */
+
+.options a {
+    /* color: black; */
+    color: rgb(51, 171, 77);
+    background-color: rgb(225, 240, 243);
+    /* padding: 0em; */
+    /* padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em; */
+    /* position: relative;
+    top: 1em; */
+}
+
+#home_choice:hover, .options a:hover {
+    /* color: rgb(51, 171, 77); */
+    color: rgb(255, 228, 74);
+    background-color: white;
+    z-index: 3;
+}
+
+/* #about a:hover {
+    color: rgb(51, 171, 77);
+    color: rgb(255, 228, 74);
+    background-color: white;
+} */
+
+/* #landmarks a:hover, #colleges a:hover, #about li:hover { */
+/* #landmarks a:hover, #colleges a:hover, #about a:hover { */
+#landmarks #landmarks_choice:hover, #colleges #colleges_choice:hover, #about #about_choice:hover {
+    display: block;
+    /* color: rgb(51, 171, 77); */
+    /* color: rgb(255, 228, 74);
+    background-color: white; */
+    margin-top: -1em;
+}
+
+/* #landmarks .options:hover, #colleges .options:hover, #about_choice:hover { */
+#landmarks .options:hover, #colleges .options:hover, #about .options:hover {
+    display: block;
+    /* background-color: white;
+    color: rgb(255, 228, 74); */
+    margin-top: 1em;
+}
+
+/* #home_choice:active, #landmarks a:active, #colleges a:active, #about_choice:active, .options a:active {
+    background-color: rgb(31, 151, 31);
+} */
+
+nav ul {
+    margin-top: -1em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+nav ul li {
+    font-size: 30px;
+    /* margin: 3.5em; */
+    margin-top: 2em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: -1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    /* background-color: rgb(140, 215, 236); */
+    position: relative;
+    /* margin: 0em; */
+    /* height: 4em; */
+    top: 1em;
+    left: 10em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#navigation_bar {
+    position: fixed;
+    top: 2em;
+    width: fit-content;
+    margin-left: 3.5em;
+    z-index: 2;
+}
+
+/* #navigation_bar, #landmarks_choice, #colleges_choice, #about_choice {
+    overflow: hidden;
+} */
+
+#home_choice, #landmarks_choice, #colleges_choice, #about_choice {
+    font-size: 30px;
+    /* width: 7em; */
+    /* margin: 3.5em; */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: rgb(140, 215, 236);
+    /* height: 4em; */
+    color: white;
+}
+
+#home_choice:hover, #landmarks_choice:hover, #colleges_choice:hover, #about_choice:hover {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+
+#landmarks_choice:hover, #colleges_choice:hover, #about_choice:hover {
+    position: relative;
+    top: 0.5em;
+}
+
+/* #about_choice:hover {
+    margin-top: 2.5em; */
+    /* color: rgb(255, 228, 74);
+    background-color: white; */
+    /* position: relative;
+    top: 4em; */
+/* } */
+
+#landmarks_choice .options {
+    width: 11em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 0em;
+    /* margin-left: 1.25em; */
+}
+
+/* #landmarks_choice .options {
+    margin-left: 1.25em;
+} */
+
+/* #landmarks_choice {
+    width: 10em;
+} */
+
+#landmarks:hover .options {
+    width: 11em;
+    text-align: center;
+    margin-left: 1em;
+    /* margin-left: 1.25em; */
+}
+
+/* .options {
+    background-color: rgb(180, 224, 236);
+    position: relative;
+    top: -0.5em;
+    padding: 1em;
+}
+
+#landmarks_choice .options {
+    left: -1em;
+}
+
+.options:hover {
+    position: relative;
+    top: -1em;
+} */
+
+@media screen and (max-width: 768px) {
+    #logo {
+        display: none;
+    }
+
+    nav, nav ul {
+        display: flex;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr; */
+        list-style: none;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        left: -4em;
+    }
+
+    #navigation_bar {
+        position: fixed;
+    }
+
+    nav ul {
+        margin-left: 0.25em;
+    }
+
+    #home_choice, #landmarks_choice, #colleges_choice, #about_choice {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        background-color: rgb(140, 215, 236);
+        /* height: 4em; */
+        color: white;
+        /* width: 5em; */
+    }
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Breadcrumbs */
+#breadcrumb_bar {
+    font-size: 25px;
+    position: relative;
+    margin-top: 6em;
+    margin-left: -1.5em;
+    text-align: center;
+}
+
+.breadcrumbs {
+    padding: 10px;
+}
+
+.breadcrumbs_item {
+    display: inline-block;
+}
+
+.breadcrumbs_item:not(:last-of-type)::after {
+    content: '\203a';
+    margin: 0 5px;
+    color: cadetblue;
+}
+
+.breadcrumbs_link {
+    text-decoration: none;
+    color: rgb(32, 137, 222);
+}
+
+.breadcrumbs_link:hover {
+    text-decoration: underline;
+}
+#breadcrumbs_link_active {
+    color: rgb(34, 81, 83);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    #breadcrumb_bar {
+        position: relative;
+        margin-left: 6em;
+        text-align: center;
+    }    
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+h1 {
+    text-align: center;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* To top button -- taken from w3schools --------------------------------- */
+
+#myBtn {
+/* #js-top { */
+    display: none;
+    position: fixed;
+    bottom: 85px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #395c5e;
+    background-color: #70abaf;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+/* #js-top { */
+    background-color: #c4d9db;
+}
+
+.dark-mode {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+p {
+    color: black;
+}
+
+#dark_mode_button {    
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(168, 168, 168);
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+/* #js-top {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    display: none;
+} */
+/* ----------------------------------------------------------------------- */
+
+/* 
+/* Content --------------------------------------------------------------- */
+/* #content {
+    position: relative;
+    margin-left: 1em;
+} */
+/* ----------------------------------------------------------------------- */

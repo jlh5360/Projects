@@ -1,0 +1,113 @@
+/* Logo and navigation bar */
+#landmarks_3 {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+#heading_title {
+    color: #30465d;
+}
+
+.line {
+    background-color: #30465d;
+    width: 25em;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+#empire_state_building_image {
+    margin-left: 20em;
+    margin-top: 2em;
+}
+
+#history p {
+    width: 25em;
+    background-color: aliceblue;
+    padding: 1em;
+    font-size: 20px;
+    margin-left: 10em;
+}
+
+/* #suggested_activities ul li {
+    width: 20em;
+    background-color: aliceblue;
+    padding: 1em;
+}
+
+#list {
+    font-size: 20px;
+    margin-left: 10em;
+    padding: 1em;
+} */
+
+#history h3, #suggested_activities h3 {
+    font-size: 25px;
+    margin-left: 6em;
+    background-color: rgb(202, 185, 252);
+    width: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#section_1 {
+    margin-top: 4em;
+    display: flex;
+    /* position: absolute; */
+}
+
+#section_2 {
+    /* margin-bottom: 2em; */
+    margin-left: 2em;
+    position: relative;
+    top: 1.25em;
+}
+
+@media screen and (max-width: 768px) {
+    #heading {
+        margin-left: -14em;
+    }
+
+    #empire_state_building_image {
+        margin-left: 10em;
+        margin-top: 2em;
+    }
+
+    nav ul {
+        margin-left: -0.5em;
+    }
+
+    #content, #section_1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #history, #section2 {
+        margin-left: 30em;
+    }
+
+    #history p {
+        width: 22em;
+        background-color: aliceblue;
+        padding: 1em;
+        font-size: 20px;
+        margin-left: -1.25em;
+    }
+
+    #section_1 {
+        margin-left: -8.5em;
+    }
+
+    iframe {
+        margin-left: 25em;
+    }
+}
+/* ----------------------------------------------------------------------- */

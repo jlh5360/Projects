@@ -1,0 +1,72 @@
+/* Logo and navigation bar */
+#about_1 {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+.line {
+    margin-top: 2em;
+    height: 3px;
+    width: 25em;
+    background-color: black;
+}
+
+#heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    left: -0.5em;
+}
+
+#heading_title {
+    margin-top: 0.5em;
+    font-size: 30px;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    #heading_title {
+        margin-left: 2em;
+        margin-right: 2em;
+        /* position: relative; */
+        /* left: 5em; */
+    }
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+#content {
+    text-align: center;
+    margin-top: 6em;
+}
+
+#required {
+    color: red;
+}
+
+/* #first_name, #section {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+} */
+
+@media screen and (max-width: 768px) {
+    
+    #content {
+        margin-top: 3.5em;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
+/* ----------------------------------------------------------------------- */

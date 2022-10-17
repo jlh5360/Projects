@@ -1,0 +1,142 @@
+/* Logo and navigation bar */
+#home_choice {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #navigation_bar ul {
+        position: relative;
+        left: -4.5em;
+    }
+
+    #breadcrumbs {
+        position: relative;
+        left: 0.5em;
+    }
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+.line {
+    margin-top: 2em;
+    height: 3px;
+    width: 25em;
+    background-color: black;
+}
+
+#heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    /* position: relative;
+    left: -0.5em; */
+}
+
+#heading_title {
+    margin-top: 0.5em;
+    font-size: 30px;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    #heading_title {
+        margin-left: 2em;
+        margin-right: 2em;
+        width: max-content;
+        position: relative;
+        left: 1em;
+    }
+
+    #heading {
+        position: relative;
+        left: 5em;
+    }
+
+    .line {
+        position: relative;
+        left: 1.5em;
+        top: 2em;
+    }
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+#NYC {
+    position: relative;
+    left: 15%;
+    top: -1em;
+}
+
+p {
+    font-size: 20px;
+    width: 300px;
+    margin-top: 4.85em;
+    margin-left: 11em;
+    background-color: aliceblue;
+    padding: 1em;
+    height: fit-content;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 6em;
+    margin-left: 3.75em;
+}
+
+#content {
+    margin-top: 3.5em;
+    margin-left: 1em;
+}
+
+#section {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    #NYC {
+        position: relative;
+        left: -1.5em;
+        top: -1em;
+        width: 950px;
+        height: 550px;
+    }
+    
+    p {
+        font-size: 20px;
+        width: 30em;
+        margin-top: 4.85em;
+        margin-left: 1.80em;
+        background-color: aliceblue;
+        padding: 1em;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    iframe {
+        margin-top: 6em;
+        /* margin-left: 11.35em; */
+    }
+    
+    #content {
+        margin-top: 3.5em;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    #section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-left: 6em;
+    }
+}
+/* ----------------------------------------------------------------------- */

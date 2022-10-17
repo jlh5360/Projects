@@ -1,0 +1,52 @@
+/* Heading */
+.line {
+    /* margin-top: -4em; */
+    margin-top: 2em;
+    height: 3px;
+    width: 25em;
+    background-color: black;
+}
+
+#heading {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#heading_title {
+    margin-top: 0.5em;
+    font-size: 30px;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .line {
+        width: 6em;
+    }
+
+    #heading {
+        position: relative;
+        left: 12.5em;
+    }
+
+    #heading_title {
+        margin-left: 2em;
+        margin-right: 2em;
+        /* position: relative; */
+        /* left: 5em; */
+    }
+
+    #content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+        align-content: center;
+    }
+}
+/* ----------------------------------------------------------------------- */

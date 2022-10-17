@@ -1,0 +1,109 @@
+/* Logo and navigation bar */
+#colleges_choice {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+.line {
+    width: 25em;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+h3 a {
+    position: relative;
+    top: 3em;
+    font-size: 20px;
+    background-color: rgb(113, 210, 166);
+    padding: 0.5em;
+}
+
+#bottom_section h3 a {
+    color: white;
+}
+
+#bottom_section h3 a:hover {
+    color: rgb(139, 73, 220);
+}
+
+p {
+    font-size: 20px;
+    background-color: aliceblue;
+    width: 46em;
+    margin-top: 3em;
+    padding: 1em;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 3em;
+    margin-left: -16em;
+}
+
+#list_choice_1 {
+    position: relative;
+    top: 27em;
+}
+
+#list_choice_2, #list_choice_3 {
+    position: relative;
+    top: 22em;
+}
+
+#list_choice_4 {
+    position: relative;
+    top: 19.5em;
+}
+
+#content {
+    margin-top: -2em;
+    margin-bottom: 4em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#top_section {
+    margin-left: 15em;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        margin-left: -0.5em;
+    }
+
+    #heading {
+        margin-left: -14em;
+    }
+
+    p {
+        width: 30em;
+        margin-left: -2.5em;
+    }
+
+    iframe {
+        width: 600px;
+        height: 450px;
+        margin-left: -7.5em;
+    }
+
+    #top_section {
+        margin-left: 19.25em;
+    }
+
+    #list_choice_1, #list_choice_2, #list_choice_3, #list_choice_4 {
+        margin-left: 9em;
+    }
+    
+    #new_york_university_logo, #columbia_university_logo, #fordham_university_seal, #yeshiva_university_logo {
+        margin-left: 11em;
+    }
+}
+/* ----------------------------------------------------------------------- */

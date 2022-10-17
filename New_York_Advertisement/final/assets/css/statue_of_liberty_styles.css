@@ -1,0 +1,81 @@
+/* Logo and navigation bar */
+#landmarks_1 {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+#heading_title {
+    color: #a1c7b6;
+}
+
+.line {
+    background-color: #a1c7b6;
+    width: 25em;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+#the_statue_of_liberty_image {
+    margin-left: 20em;
+    margin-top: 2em;
+}
+
+#history p {
+    width: 45.5em;
+    background-color: aliceblue;
+    padding: 1em;
+    font-size: 20px;
+    margin-left: 10em;
+}
+
+#suggested_activities ul li {
+    width: 20em;
+    background-color: aliceblue;
+    padding: 1em;
+}
+
+#list {
+    font-size: 20px;
+    margin-left: 10em;
+    padding: 1em;
+}
+
+#history h3, #suggested_activities h3 {
+    font-size: 25px;
+    margin-left: 6em;
+    background-color: rgb(202, 185, 252);
+    width: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#section_1 {
+    margin-top: 4em;
+}
+
+#section_2 {
+    display: flex;
+}
+
+iframe {
+    margin-left: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        margin-left: 0.5em;
+    }
+
+    #content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
+/* ----------------------------------------------------------------------- */

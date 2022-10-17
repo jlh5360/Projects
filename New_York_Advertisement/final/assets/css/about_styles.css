@@ -1,0 +1,37 @@
+/* Logo and navigation bar */
+#about_choice {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+.line {
+    width: 25em;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content --------------------------------------------------------------- */
+#content {
+    margin-top: 4em;
+}
+
+#submission_form_group, #grading_group, #references_group {
+    text-align: center;
+}
+
+#section h3 #submission_form_group #submission_form a, #section h3 #grading_group #grading a, #section h3 #references_group #references a {
+/* #section h3 { */
+    font-size: 25px;
+    color: honeydew;
+    background-color: darkslateblue;
+}
+
+#section h3 #submission_form_group #submission_form a:hover, #section h3 #grading_group #grading a:hover, #section h3 #references_group #references a:hover {
+/* #section h3 { */
+    color: white;
+    background-color: rgb(136, 129, 181);
+}
+/* ----------------------------------------------------------------------- */

@@ -1,0 +1,139 @@
+/* Logo and navigation bar */
+#landmarks_choice {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+.line {
+    width: 25em;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+h3 {
+    position: relative;
+    top: 3em;
+    font-size: 20px;
+    background-color: rgb(113, 210, 166);
+    margin-left: 8em;
+    margin-right: 8em;
+    padding: 0.2em;
+}
+
+#list_choice_1, #list_choice_2, #list_choice_3 {
+    position: relative;
+    top: 2em;
+}
+
+#left_section h3 a {
+    /* color: cornsilk; */
+    color: white;
+}
+
+#list_choice_1 a:hover, #list_choice_2 a:hover, #list_choice_3 a:hover, #list_choice_4 a:hover{
+    color: rgb(109, 20, 20);
+}
+
+p {
+    font-size: 20px;
+    background-color: aliceblue;
+    width: 28em;
+    margin-top: 5em;
+    margin-left: 11.5em;
+    padding: 1em;
+    text-align: center;
+}
+
+iframe {
+    margin-top: 6em;
+    margin-left: 14.5em;
+}
+
+#content {
+    margin-top: -2em;
+    display: flex;
+    justify-content: center;
+}
+
+#left_section {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    order: 1;
+    text-align: center;
+}
+
+#right_section {
+    order: 2;
+    margin-right: 4em;
+}
+
+@media screen and (max-width: 768px) {
+    .line {
+        width: 12em;
+    }
+
+    #heading {
+        margin-left: -14em;
+        /* margin-top: 3em; */
+    }
+
+    #navigation_bar {
+        margin-left: 2em;
+        margin-left: -0.5em;
+        margin-right: -0.5em;
+    }
+
+    nav ul li a {
+        /* margin-left: 2em; */
+        position: relative;
+        right: 0em;
+    }
+
+    /* #list_choice_1, #list_choice_2, #list_choice_3, #list_choice_4 {
+        /* margin-left: 5em; */
+        /* position: relative;
+        left: 5em;
+    } */
+
+    p {
+        font-size: 20px;
+        background-color: aliceblue;
+        width: 28em;
+        margin-top: 5em;
+        margin-left: 4em;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    iframe {
+        margin-top: 6em;
+        margin-left: 5em;
+    }
+    
+    #content {
+        margin-top: -2em;
+        justify-content: center;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-left: 11em;
+    }
+
+    #home_choice, #landmarks_choice, #colleges_choice, #about_choice {
+        /* margin: 3.5em; */
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+        background-color: rgb(140, 215, 236);
+        height: 4em;
+        color: white;
+    }
+}
+/* ----------------------------------------------------------------------- */

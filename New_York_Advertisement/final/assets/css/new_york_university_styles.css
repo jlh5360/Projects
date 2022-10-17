@@ -1,0 +1,112 @@
+/* Logo and navigation bar */
+#colleges_1 {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Heading */
+#heading_title {
+    color: rgb(100, 7, 177);
+}
+
+.line {
+    background-color: rgb(100, 7, 177);
+    width: 25em;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+#new_york_university {
+    margin-left: 15em;
+    margin-top: 2em;
+}
+
+#about_info {
+    width: 52.5em;
+    background-color: aliceblue;
+    padding: 1em;
+    font-size: 20px;
+    margin-left: 10em;
+}
+
+#section_2 ul li {
+    width: 16.5em;
+    background-color: aliceblue;
+    padding: 1em;
+    font-size: 20px;
+    margin-left: 9em;
+}
+
+#about_heading, #section_2 h3 {
+    font-size: 25px;
+    margin-left: 6em;
+    background-color: rgb(202, 185, 252);
+    width: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#section_1 h3, #stats_1 h3 {
+    margin-left: 6em;
+    background-color: rgb(202, 185, 252);
+    width: fit-content;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+p {
+    font-size: 20px;
+}
+
+#section_1 {
+    margin-top: 4em;
+}
+
+#section_2 {
+    /* margin-bottom: 2em; */
+    margin-left: 0em;
+    position: relative;
+    top: 1.5em;
+}
+
+#stats_2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto; */
+}
+
+#stats_2 p {
+    width: fit-content;
+    background-color: aliceblue;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1em;
+    align-self: center;
+}
+
+#section_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+#section_4 {
+    position: relative;
+    bottom: -1.5em;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+/* ----------------------------------------------------------------------- */

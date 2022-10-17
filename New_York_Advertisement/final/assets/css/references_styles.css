@@ -1,0 +1,28 @@
+/* Logo and navigation bar */
+#about_3 {
+    color: rgb(255, 228, 74);
+    background-color: white;
+}
+/* ----------------------------------------------------------------------- */
+
+
+/* Content */
+#info h3, #photo h3 {
+    font-size: 25px;
+    color: rgb(13, 221, 20);
+    background-color: beige;
+    width: fit-content;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#content {
+    margin-left: 2em;
+    font-size: 20px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto; */
+}
+/* ----------------------------------------------------------------------- */
