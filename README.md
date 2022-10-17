@@ -1,1 +1,1 @@
-# Projects
+# Projects  |  jlh5360@rit.edu
