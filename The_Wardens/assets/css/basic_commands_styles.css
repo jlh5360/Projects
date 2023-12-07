@@ -1,0 +1,35 @@
+
+#subnav {
+    list-style: none;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    width: 86%;
+}
+
+.sub {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+
+.sub:not(:last-child)::after {
+    content: "";
+    border: 1px solid #909090;
+    border-width: 1px 1px 0 0;
+    position: absolute;
+    right: -3px;
+    top: 0;
+    height: 100%;
+}
+
+.sub a{ 
+    text-decoration: none;
+    color:black;
+}
+
+.sub a:hover{ 
+    color:#70abaf;
+}
+
