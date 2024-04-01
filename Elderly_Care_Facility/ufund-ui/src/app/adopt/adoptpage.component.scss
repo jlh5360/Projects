@@ -1,0 +1,64 @@
+.adopt-container {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.elderlies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.elderly {
+  // width: calc(33.33% - 20px);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.elderly-image {
+  // width: 50%;
+  // height: 50%;
+  width: 70%;
+  height: 70%;
+}
+
+#add_elderly_form label {
+  font-weight: bold;
+}
+
+.elderly-form {
+  grid-column: 1;
+  margin-right: 0.5em;
+  width: auto;
+}
+
+.elderlies {
+  grid-column: 2/5;
+  margin-right: 0.5em;
+}
+
+#age, #number_of_children {
+  width: 4em;
+}
+
+.forms {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.admin_buttons {
+  display: flex;
+  gap: 0.5em;
+}
+
+// #add_elderly_button, #update_elderly_button, .admin_buttons {
+  
+// }
+

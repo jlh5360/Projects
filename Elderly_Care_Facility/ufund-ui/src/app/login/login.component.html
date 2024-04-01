@@ -1,0 +1,18 @@
+<div [style.display]="isLoggedIn ? 'none' : 'block'">
+  <h2>Login</h2>
+  <form>
+    <label for="name">Username: </label>
+    <input id="name" required type="text" [(ngModel)]="userModel.name" name="name"
+      value={{this.userModel.name}}><br>
+    <label for="name">Password: </label>
+    <input id="name" required type="password" [(ngModel)]="userModel.password" name="password"
+      value={{this.userModel.password}}><br>
+    <input class="log" type="submit" (click)="onLogin(); this.onReset()" value="Login">
+    <input class="sign" type="submit" (click)="onSignup(); this.onReset()" value="Sign up">
+  </form>
+</div>
+
+<div [style.display]="isLoggedIn ? 'block' : 'none'">
+  <h3>Currently Logged In As: {{currentUser.name}}</h3>
+  <input class="logout" type="button" value="Logout" (click)="logout();">
+</div>

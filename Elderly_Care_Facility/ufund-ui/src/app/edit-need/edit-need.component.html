@@ -1,0 +1,43 @@
+<div [style.display]="isEditingNeed ? 'block' : 'none'">
+  <h2>Editing Need: {{need.name}}</h2>
+  <form>
+    <label>Id: {{need.id}}</label><br>
+    
+    <label for="name">Name: </label>
+    <input id="name" name="name" value="{{need.name}}" [(ngModel)]="need.name"><br>
+    
+    <label for="cost">Cost: </label>
+    <input id="cost" name="cost" value="{{need.cost}}" [(ngModel)]="need.cost"><br>
+    
+    <label for="amount">Amount: </label>
+    <input id="amount" name="amount" value="{{need.amount}}" [(ngModel)]="need.amount"><br>
+  
+    <textarea style="height: 150px; width: 98%; resize:none; font-family: 'Lato', sans-serif;" 
+    id="description" name="description" placeholder="Description {{need.description}}" [(ngModel)]="need.description">
+    </textarea><br>
+
+    <input type="submit" (click)="onEditNeed();" value="Update">
+  </form>
+  <div class="finish" [style.display]="isSuccessful ? 'block' : 'none'">
+    <p>Successfully updated need</p>
+  </div>
+</div>
+
+<div [style.display]="isCreatingNeed ? 'block' : 'none'">
+  <h2>Create Need</h2>
+  <form>
+    <label for="name">Name: </label>
+    <input id="name" name="name" value="" [(ngModel)]="need.name"><br>
+    <label for="cost">Cost: </label>
+    <input id="cost" name="cost" value="" [(ngModel)]="need.cost"><br>
+    <label for="amount">Amount: </label>
+    <input id="amount" name="amount" value="" [(ngModel)]="need.amount"><br>
+    <textarea style="height: 150px; width: 98%; resize:none; font-family: 'Lato', sans-serif;" 
+    id="description" name="description" placeholder="Description {{need.description}}" [(ngModel)]="need.description">
+    </textarea><br>
+    <input type="submit" (click)="onCreateNeed();" value="Create">
+  </form>
+  <div class="finish" [style.display]="isSuccessful ? 'block' : 'none'">
+    <p>Successfully created need</p>
+  </div>
+</div>

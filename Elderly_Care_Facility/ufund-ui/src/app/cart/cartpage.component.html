@@ -1,0 +1,25 @@
+<div class="cart-container">
+  <div class="needs">
+    <div class="need" *ngFor="let need of needs">
+      <img src="../../assets/images/need.png" class="need-image">
+      <p class="product-title">{{need.name}}</p>
+      <p class="product-price">${{need.cost}}</p>
+      <!-- <div class="quantity-control">
+        <button (click)="decreaseQuantity(need.id)">-</button>
+        <span>{{need.quantity}}</span>
+        <button (click)="increaseQuantity(need.id)">+</button>
+      </div> -->
+      <button class="remove-button" (click)="removeItem(need.id)">Remove</button>
+    </div>
+  </div>
+
+<div class="right-box">
+  <div class="needs-list">
+    <div class="need-item" *ngFor="let need of needs">{{need.name}}: ${{need.cost}}</div>
+
+    <div class="checkoutcontainer">
+      <!-- <p class="total-price">Total: ${{totalCost}}</p> -->
+      <button class="checkout" (click)="submitCart()">Checkout</button>
+    </div>
+  </div>
+</div>

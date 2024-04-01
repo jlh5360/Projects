@@ -1,0 +1,35 @@
+body {
+    color: black;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+nav {
+    // display: grid;
+    // grid-template-columns: auto;
+    // grid-template-rows: 1fr;
+    // gap: 1em;
+    margin-bottom: 2em;
+}
+
+nav a {
+    // position: relative;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+    color: black;
+    background-color: rgb(237, 237, 237);
+}
+
+nav a:hover {
+    background-color: rgb(212, 212, 212);
+    transition: 0.3s;
+}

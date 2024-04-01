@@ -1,0 +1,108 @@
+<div class="adopt-container">
+  <div class="forms">
+    <!-- Add Elderly Input Form -->
+    <div class="elderly-form" *ngIf="isAdmin">
+      <h2>Add Elderly</h2>
+      <form #elderlyForm="ngForm" (ngSubmit)="addElderly()" id="add_elderly_form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" [(ngModel)]="newElderly.name" required>
+
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" [(ngModel)]="newElderly.age" required>
+
+        <br>
+
+        <label for="gender">Gender:</label>
+        <input type="text" id="gender" name="gender" [(ngModel)]="newElderly.gender" required>
+
+        <br>
+
+        <label for="level of up keep">Level of up keep:</label>
+        <input type="text" id="level_of_up_keep" name="level_of_up_keep" [(ngModel)]="newElderly['level of up keep']">
+
+        <br>
+
+        <label for="number of children">Number of children:</label>
+        <input type="number" id="number_of_children" name="number_of_children" min="0" [(ngModel)]="newElderly['number of children']" required>
+
+        <br>
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" [(ngModel)]="newElderly.description">
+        <!-- <br>
+        <textarea id="description" name="description" [(ngModel)]="newElderly.description"></textarea> -->
+        
+        <br>
+        <br>
+
+        <button type="submit" id="add_elderly_button">Add Elderly</button>
+      </form>
+    </div>
+
+    <!-- Update Elderly Input Form -->
+    <div class="elderly-form" *ngIf="isAdmin">
+      <form *ngIf="updateFormVisible" #updateElderlyForm="ngForm" (ngSubmit)="saveUpdatedElderly()" id="update_elderly_form">      
+        <h2>Update Elderly</h2>
+        
+        <label for="update_name">Name:</label>
+        <input type="text" id="update_name" name="update_name" [(ngModel)]="updatedElderly.name" required>
+
+        <br>
+
+        <label for="update_age">Age:</label>
+        <input type="number" id="update_age" name="update_age" min="1" [(ngModel)]="updatedElderly.age" required>
+
+        <br>
+
+        <label for="update_gender">Gender:</label>
+        <input type="text" id="update_gender" name="update_gender" [(ngModel)]="updatedElderly.gender" required>
+
+        <br>
+
+        <label for="update_level_of_up_keep">Level of up keep:</label>
+        <input type="text" id="update_level_of_up_keep" name="update_level_of_up_keep" [(ngModel)]="updatedElderly['level of up keep']">
+
+        <br>
+
+        <label for="update_number_of_children">Number of children:</label>
+        <input type="number" id="update_number_of_children" name="update_number_of_children" min="0" [(ngModel)]="updatedElderly['number of children']" required>
+
+        <br>
+
+        <label for="update_description">Description:</label>
+        <input type="text" id="update_description" name="update_description" [(ngModel)]="updatedElderly.description">
+
+        <br>
+        <br>
+
+        <button type="submit" id="update_elderly_button">Save Update</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="elderlies">
+    <div class="elderly" *ngFor="let elderly of elderlies">
+      <!-- Display Elderly Information -->
+      <img src="../../assets/images/elderly.jpg" class="elderly-image">
+      <p class="elderly-name">{{elderly.name}}</p>
+      <p class="elderly-age">Age: {{elderly.age}} years old</p>
+      <p class="elderly-gender">Gender: {{elderly.gender}}</p>
+      <p class="elderly-gender">Level of Up Keep: {{elderly['level of up keep']}}</p>
+      <p class="elderly-gender">{{elderly['number of children']}} children</p>
+      <p class="elderly-gender">Description: {{elderly.description}}</p>
+
+      <br>
+
+      <div class="admin_buttons" *ngIf="isAdmin">
+        <button *ngIf="isAdmin && !elderly.isUpdated" (click)="showUpdateForm(elderly)">Update</button>
+        <span *ngIf="elderly.isUpdated">Updated</span>
+        <button *ngIf="isAdmin" (click)="deleteElderly(elderly.id)">Delete</button>
+      </div>
+
+      <button *ngIf="isAdmin === false && !elderly.isAdopted" (click)="adoptElderly(elderly)">Adopt Elderly</button>
+      <span *ngIf="elderly.isAdopted">Adopted</span>
+    </div>
+  </div>
+</div>

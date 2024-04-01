@@ -1,0 +1,17 @@
+<div class="search-container">
+  <!-- <label for="search-box">Search: </label> -->
+  <input #searchBox id="search-box" placeholder="Search" (input)="searchNeeds(searchBox.value)"/>
+</div>
+<button class="make" [style.display]="isAdmin ? 'block' : 'none'" (click)="createNeed()">Create Need</button>
+<div class="needs">
+  <div class="need" *ngFor="let need of needs">
+    <img src="../../assets/images/need.png" class="need-image">
+    <p class="need-name">{{need.name}}</p>
+    <p class="need-cost">${{need.cost}}</p>
+    <p class="need-amount">Amount: {{need.amount}}</p>
+    <p class="need-description">{{need.description}}</p>
+    <button [style.display]="isAdmin ? 'none' : 'block'" id="add-cart" (click)="addCart(need)">Add to Cart</button>
+    <button class="edit" [style.display]="isAdmin ? 'block' : 'none'" (click)="editNeed(need)">Edit Need</button>
+    <button class="delete" [style.display]="isAdmin ? 'block' : 'none'" (click)="deleteNeed(need)">Delete Need</button>
+  </div>
+</div>

@@ -1,0 +1,113 @@
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  width: calc(33.33% - 20px);
+}
+.search-container input {
+  width: 100%;
+}
+::placeholder {
+  font-family: 'Lato', sans-serif;
+  color:rgb(39, 112, 230);
+}
+
+.needs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+
+.need {
+  width: calc(33.33% - 20px); 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.need-image {
+  display: block;
+  margin-bottom: 30px; 
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.need-name, .need-cost, .need-amount, .need-description {
+  margin: 5px 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+.need-name {
+  font-weight: bold;
+  color: rgb(39, 112, 230);
+}
+
+#add-cart {
+  background-color: rgb(84, 194, 88);
+  color: white;
+  padding: 10px 24px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#add-cart:hover {
+  background-color: rgb(69, 160, 73);
+}
+
+.edit {
+  background-color: rgb(13, 133, 226);
+  color: white;
+  padding: 5px 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background-color: rgb(12, 107, 180);
+}
+
+.make {
+  position: absolute;
+  top: 12vh; 
+  right: 13vw; 
+  height: 30px;
+  width: 125px;
+  background-color: rgb(175, 174, 165);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.make:hover {
+  background-color: rgba(120, 119, 113);
+}
+
+.delete {
+  margin-top: 20px;
+  background-color: rgb(227, 29, 29);
+  color: white;
+  padding: 10px 24px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: rgb(208, 30, 30);
+}

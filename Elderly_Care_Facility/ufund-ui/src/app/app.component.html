@@ -1,0 +1,14 @@
+<nav class="navbar">
+    <a [style.display]="isLoggedIn ? 'block' : 'none'" routerLink="/homepage" routerLinkActive="" class="left">Elderly Care U-Fund</a>
+    <a [style.display]="isLoggedIn ? 'none' : 'block'" routerLink="/aboutus" routerLinkActive="" class="left">Elderly Care U-Fund</a>
+
+    <a [style.display]="isLoggedIn ? 'block' : 'none'" routerLink="/homepage" routerLinkActive="current">Home</a>
+    <a [style.display]="isLoggedIn ? 'block' : 'none'" routerLink="/adoptpage" routerLinkActive="current">Adopt</a>
+
+    <a routerLink="/aboutus" routerLinkActive="current">About Us</a>
+
+    <a [style.display]="isLoggedIn ? (isAdmin ? 'none' : 'block') : 'none'" routerLink="/cartpage" routerLinkActive="current" class="right">Cart</a>
+
+    <a routerLink="/login" routerLinkActive="current" class="rightmore">{{loginLabel}}</a>
+</nav>
+<router-outlet></router-outlet>
