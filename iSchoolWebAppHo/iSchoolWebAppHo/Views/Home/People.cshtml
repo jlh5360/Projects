@@ -1,0 +1,232 @@
+﻿@model iSchoolWebAppHo.Models.PeopleModel
+@{
+    //Set the title of the page
+    ViewData["Title"] = Model.pageTitle;   //"Our iSchool Faculty & Staff"
+}
+
+@* Display the page header *@
+<div class="page-header">
+    <h1>@Model.title</h1>
+    <h5>@Model.subTitle</h5>
+</div>
+
+@* Hide the content by default *@
+<div id="hideMe" style="display:none">
+    <div id="peopleTabs">
+        <ul>
+            @* Display tabs for faculty and staff *@
+            <li><a href="#faculty">Our Faculty</a></li>
+            <li><a href="#staff">Our Staff</a></li>
+        </ul>
+        <div id="faculty">
+            @* Iterate through each faculty member *@
+            @foreach (var faculty in @Model.faculty)
+            {
+                <div class="person">
+                    @* Display the faculty image if available *@
+                    @if ((faculty.imagePath != "") && (faculty.imagePath != null))
+                    {
+                        <img src="@faculty.imagePath" alt=("@faculty.name" + "'s image") />
+                    }
+                    @* Display the faculty name as a button *@
+                    @if ((faculty.name != "") && (faculty.name != null))
+                    {
+                        <button class="dialog-people-button" id="@faculty.username">@faculty.name.ToUpper()</button>
+
+                        @* Display the faculty dialog *@
+                        @if ((faculty.name != "") && (faculty.name != null))
+                        {
+                            <div class="dialog" id="dialog-@faculty.username" title="@faculty.name" style="display:none">
+                                @* Display the faculty tagline if available *@
+                                @if ((faculty.tagline != "") && (faculty.tagline != null))
+                                {
+                                    <div class="detail">
+                                        <h3 style="font-weight:bold">@faculty.tagline</h3>
+                                    </div>
+                                }
+                                @* Display the faculty title if available *@
+                                @if ((faculty.title != "") && (faculty.title != null))
+                                {
+                                    <div class="detail">
+                                        <h3 style="font-weight:bold">@faculty.title</h3>
+                                    </div>
+                                }
+                                @* Display the faculty image if available *@
+                                @if ((faculty.imagePath != "") && (faculty.imagePath != null))
+                                {
+                                    <div class="detail">
+                                        <img src="@faculty.imagePath" alt=("@faculty.name" + "'s image") />
+                                    </div>
+                                }
+                                @* Display the faculty interest area if available *@
+                                @if ((faculty.interestArea != "") && (faculty.interestArea != null))
+                                {
+                                    <div class="detail">
+                                        <h3><b>Interest Area: </b>@faculty.interestArea.ToUpper()</h3>
+                                    </div>
+                                }
+                                @* Display the faculty office if available *@
+                                @if ((faculty.office != "") && (faculty.office != null))
+                                {
+                                    <div class="detail">
+                                        <h3><b>Office: </b>@faculty.office</h3>
+                                    </div>
+                                }
+                                @* Display the faculty website if available *@
+                                @if ((faculty.website != "") && (faculty.website != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Website: </b><a href="@faculty.website" target="_blank">@faculty.website</a>
+                                        </h3>
+                                    </div>
+                                }
+                                @* Display the faculty phone if available *@
+                                @if ((faculty.phone != "") && (faculty.phone != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Phone: </b><a href={"tel:+@faculty.phone"} target="_blank">@faculty.phone</a>
+                                        </h3>
+                                    </div>
+                                }
+                                @* Display the faculty email if available *@
+                                @if ((faculty.email != "") && (faculty.email != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Email: </b><a href={"mailto:@faculty.email"} target="_blank">@faculty.email</a>
+                                        </h3>
+                                    </div>
+                                }
+                                @* Display the faculty twitter if available *@
+                                @if ((faculty.twitter != "") && (faculty.twitter != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Twitter: </b><a href="@faculty.twitter" target="_blank">@faculty.twitter</a>
+                                        </h3>
+                                    </div>                                
+                                }
+                                @* Display the faculty facebook if available *@
+                                @if ((faculty.facebook != "") && (faculty.facebook != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Facebook:</b> <a href="@faculty.facebook" target="_blank">@faculty.facebook</a>
+                                        </h3>
+                                    </div>                                
+                                }
+                            </div>
+                        }
+                    }
+                </div>
+            }
+        </div>
+        <div id="staff">
+            @* Iterate through each staff member *@
+            @foreach (var staff in @Model.staff)
+            {
+                <div class="person">
+                    @* Display the staff image if available *@
+                    @if ((staff.imagePath != "") && (staff.imagePath != null))
+                    {
+                        <img src="@staff.imagePath" alt=("@staff.name" + "'s image") />
+                    }
+                    @* Display the staff name as a button *@
+                    @if ((staff.name != "") && (staff.name != null))
+                    {
+                        <button class="dialog-people-button" id="@staff.username">@staff.name.ToUpper()</button>
+
+                        @* Display the staff dialog *@
+                        @if ((staff.name != "") && (staff.name != null))
+                        {
+                            <div class="dialog" id="dialog-@staff.username" title="@staff.name" style="display:none">
+                                @* Display the staff tagline if available *@
+                                @if ((staff.tagline != "") && (staff.tagline != null))
+                                {
+                                    <div class="detail">
+                                        <h3 style="font-weight:bold">@staff.tagline</h3>
+                                    </div>
+                                }
+                                @* Display the staff title if available *@
+                                @if ((staff.title != "") && (staff.title != null))
+                                {
+                                    <div class="detail">
+                                        <h3 style="font-weight:bold">@staff.title</h3>
+                                    </div>
+                                }
+                                @* Display the staff image if available *@
+                                @if ((staff.imagePath != "") && (staff.imagePath != null))
+                                {
+                                    <div class="detail">
+                                        <img src="@staff.imagePath" alt=("@staff.name" + "'s image") />
+                                    </div>
+                                }
+                                @* Display the staff interest area if available *@
+                                @if ((staff.interestArea != "") && (staff.interestArea != null))
+                                {
+                                    <div class="detail">
+                                        <h3><b>Interest Area: </b>@staff.interestArea.ToUpper()</h3>
+                                    </div>
+                                }
+                                @* Display the staff office if available *@
+                                @if ((staff.office != "") && (staff.office != null))
+                                {
+                                    <div class="detail">
+                                        <h3><b>Office: </b>@staff.office</h3>
+                                    </div>
+                                }
+                                @* Display the staff website if available *@
+                                @if ((staff.website != "") && (staff.website != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Website: </b><a href="@staff.website" target="_blank">@staff.website</a>
+                                        </h3>
+                                    </div>
+                                }
+                                @* Display the staff phone if available *@
+                                @if ((staff.phone != "") && (staff.phone != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Phone: </b><a href={"tel:+@staff.phone"} target="_blank">@staff.phone</a>
+                                        </h3>
+                                    </div>
+                                }
+                                @* Display the staff email if available *@
+                                @if ((staff.email != "") && (staff.email != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Email: </b><a href={"mailto:@staff.email"} target="_blank">@staff.email</a>
+                                        </h3>
+                                    </div>
+                                }
+                                @* Display the staff twitter if available *@
+                                @if ((staff.twitter != "") && (staff.twitter != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Twitter: </b><a href="@staff.twitter" target="_blank">@staff.twitter</a>
+                                        </h3>
+                                    </div>
+                                }
+                                @* Display the staff facebook if available *@
+                                @if ((staff.facebook != "") && (staff.facebook != null))
+                                {
+                                    <div class="detail">
+                                        <h3>
+                                            <b>Facebook:</b> <a href="@staff.facebook" target="_blank">@staff.facebook</a>
+                                        </h3>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

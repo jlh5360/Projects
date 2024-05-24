@@ -1,0 +1,18 @@
+﻿@model iSchoolWebAppHo.Models.AboutModel
+@{
+    //Set the title of the page
+    ViewData["Title"] = Model.pageTitle;   //"About Our iSchool";
+}
+
+@* Display title and description of the iSchool *@
+<div id="about-title">
+    <h1>@Model.title</h1>
+</div>
+<section class="about">
+    <p class="abouteDescription">@Model.description</p>
+    @* Display a quote with its author *@
+    <div class="aboutQuote">
+        <p class="quote">"@Model.quote"</p>
+        <p class="quoteAuthor">-- @Model.quoteAuthor --</p>
+    </div>
+</section>

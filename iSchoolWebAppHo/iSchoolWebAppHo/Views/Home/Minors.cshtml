@@ -1,0 +1,63 @@
+﻿@model dynamic;
+@{
+    //Set the title of the page
+    ViewData["Title"] = Model.pageTitle;   //"Our iSchool Minors"
+}
+
+@* Display the page header *@
+<div class="page-header">
+    <h1>Minors</h1>
+</div>
+
+@* Hide the content by default *@
+<div id="hideMe" style="display:none">
+    <div id="minors">
+        @* Iterate through each undergraduate minor *@
+        @foreach (var ug_minor in @Model.Minors.UgMinors)
+        {
+            <div class="minorsAccordion">
+                @* Display the title and name of the minor if available *@
+                @if ((ug_minor.name != "") && (ug_minor.name != null) && (ug_minor.title != "") && (ug_minor.title != null))
+                {
+                    <h3>@ug_minor.title</h3>
+                    <div>
+                        @* Display the description if available *@
+                        @if ((ug_minor.description != "") && (ug_minor.description != null))
+                        {
+                            <h3>Description</h3>
+                            <p>@ug_minor.description</p>
+                        }
+                        @* Display the note if available *@
+                        @if ((ug_minor.note != "") && (ug_minor.note != null))
+                        {
+                            <h3>Note</h3>
+                            <p>@ug_minor.note</p>
+                        }
+                        @* Display the courses for the minor *@
+                        <div style="text-align:center">
+                            <h3>Courses</h3>
+                            @* Iterate through each course in the minor *@
+                            @foreach (var ug_minor_course in ug_minor.courses)
+                            {
+                                @* Iterate through each course in the model *@
+                                @foreach (var course in @Model.Course)
+                                {
+                                    @* Display the course button if it matches the course ID *@
+                                    @if (ug_minor_course == course.courseID)
+                                    {
+                                        <button class="dialog-course-button" id="@course.courseID">@course.courseID</button>
+
+                                        @* Display the course dialog *@
+                                        <div class="dialog" id="dialog-@course.courseID" title="@course.title (@course.courseID)" style="display:none">
+                                            <p class="course-description">@course.description</p>
+                                        </div>
+                                    }
+                                }
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\iSchoolWebAppHo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\iSchoolWebAppHo.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\RIT_2018_logo_Golisano_College_of_Computing_and_Information_Sciences.png",
+      "PackagePath": "staticwebassets\\RIT_2018_logo_Golisano_College_of_Computing_and_Information_Sciences.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\RIT_website_favicon_48x48.png",
+      "PackagePath": "staticwebassets\\RIT_website_favicon_48x48.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\RIT_website_icon.png",
+      "PackagePath": "staticwebassets\\RIT_website_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\DataTables\\datatables.css",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\DataTables\\datatables.js",
+      "PackagePath": "staticwebassets\\lib\\DataTables\\datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\KendoUI\\default-main.css",
+      "PackagePath": "staticwebassets\\lib\\KendoUI\\default-main.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\KendoUI\\kendo.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\KendoUI\\kendo.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_diagonal-maze_20_6e4f1c_10x10.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_diagonal-maze_20_6e4f1c_10x10.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_diagonal-maze_40_000000_10x10.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_diagonal-maze_40_000000_10x10.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_fine-grain_10_eceadf_60x60.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_fine-grain_10_eceadf_60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_fine-grain_10_f8f7f6_60x60.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_fine-grain_10_f8f7f6_60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_fine-grain_15_eceadf_60x60.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_fine-grain_15_eceadf_60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_fine-grain_15_f7f3de_60x60.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_fine-grain_15_f7f3de_60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_fine-grain_15_ffffff_60x60.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_fine-grain_15_ffffff_60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_fine-grain_65_654b24_60x60.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_fine-grain_65_654b24_60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_fine-grain_68_b83400_60x60.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_fine-grain_68_b83400_60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_glass_100_f5f0e5_1x400.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_glass_100_f5f0e5_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_glass_25_cb842e_1x400.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_glass_25_cb842e_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_glass_70_ede4d4_1x400.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_glass_70_ede4d4_1x400.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_highlight-hard_100_f4f0ec_1x100.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_highlight-hard_100_f4f0ec_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_highlight-hard_65_fee4bd_1x100.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_highlight-hard_65_fee4bd_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_highlight-hard_75_f5f5b5_1x100.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_highlight-hard_75_f5f5b5_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-bg_inset-soft_100_f4f0ec_1x100.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-bg_inset-soft_100_f4f0ec_1x100.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_3572ac_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_3572ac_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_8c291d_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_8c291d_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_b83400_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_b83400_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_c47a23_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_c47a23_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_cb672b_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_cb672b_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_f08000_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_f08000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_f35f07_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_f35f07_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_fbdb93_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_fbdb93_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_ff7519_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_ff7519_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ui\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\orange_loading.gif",
+      "PackagePath": "staticwebassets\\orange_loading.gif"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.iSchoolWebAppHo.props",
+      "PackagePath": "build\\iSchoolWebAppHo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.iSchoolWebAppHo.props",
+      "PackagePath": "buildMultiTargeting\\iSchoolWebAppHo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.iSchoolWebAppHo.props",
+      "PackagePath": "buildTransitive\\iSchoolWebAppHo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.iSchoolWebAppHo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

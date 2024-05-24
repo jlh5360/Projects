@@ -1,0 +1,123 @@
+﻿@model iSchoolWebAppHo.Models.DegreesModel
+@{
+    //Set the title of the page
+    ViewData["Title"] = Model.pageTitle;   //"Our iSchool Degrees"
+}
+
+@* Display page header *@
+<div class="page-header">
+    <h1>Degrees</h1>
+</div>
+
+@* Display undergraduate and graduate degrees *@
+<div id="hideMe" style="display:none">
+    <div id="degrees">
+        <h2>Undergraduate Degrees</h2>
+        <div>
+            @* Iterate through each undergraduate degree *@
+            @foreach (var undergraduate in @Model.undergraduate)
+            {
+                @* Display title and description of the degree *@
+                <div class="degreesAccordion">
+                    @if ((undergraduate.title != "") && (undergraduate.title != null) && (undergraduate.degreeName != "") && (undergraduate.degreeName != null))
+                    {
+                        <h3>
+                            @undergraduate.title (@undergraduate.degreeName.ToUpper())
+                        </h3>
+                        <div>
+                            @* Display description of the degree *@
+                            @if ((undergraduate.description != "") && (undergraduate.description != null))
+                            {
+                                <h3>
+                                    Description
+                                </h3>
+                                <p>
+                                    @undergraduate.description
+                                </p>
+                            }
+                            @* Display concentrations of the degree *@
+                            @if (undergraduate.concentrations != null)
+                            {
+                                <h3>
+                                    Concentrations
+                                </h3>
+                                <ul>
+                                    @foreach (var concentration in undergraduate.concentrations)
+                                    {
+                                        <li>
+                                            @concentration
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
+        <br />
+
+        <h2>Graduate Degrees</h2>
+        <div>
+            @* Iterate through each graduate degree *@
+            @foreach (var graduate in @Model.graduate)
+            {
+                <div class="degreesAccordion">
+                    @* Display title and description of the degree *@
+                    @if ((graduate.degreeName != "") && (graduate.degreeName != null) && (graduate.title != "") && (graduate.title != null))
+                    {
+                        <h3>
+                            @graduate.title (@graduate.degreeName.ToUpper())
+                        </h3>
+                        <div>
+                            @* Display description of the degree *@
+                            @if ((graduate.description != "") && (graduate.description != null))
+                            {
+                                <h3>
+                                    Description
+                                </h3>
+                                <p>
+                                    @graduate.description
+                                </p>
+                            }
+                            @* Display concentrations of the degree *@
+                            @if (graduate.concentrations != null)
+                            {
+                                <h3>
+                                    Concentrations
+                                </h3>
+                                <ul>
+                                    @foreach (var concentration in graduate.concentrations)
+                                    {
+                                        <li>
+                                            @concentration
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                    }
+                    @* Display available certificates for the degree *@
+                    @if (graduate.availableCertificates != null)
+                    {
+                        @if ((graduate.degreeName != "") && (graduate.degreeName != null))
+                        {
+                            <h3>
+                                @graduate.degreeName
+                            </h3>
+                        }
+                        <ul>
+                            @foreach (var certificate in graduate.availableCertificates)
+                            {
+                                <li>
+                                    @certificate
+                                </li>
+                            }
+                        </ul>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

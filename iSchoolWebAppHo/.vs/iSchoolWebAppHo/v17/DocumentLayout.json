@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\home\\degrees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\home\\degrees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\home\\employment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\home\\employment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\home\\minors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\home\\minors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\home\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\models\\aboutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\models\\aboutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\models\\coursemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\views\\home\\dyntest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\views\\home\\dyntest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\models\\employmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\models\\employmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\models\\degreesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\models\\degreesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\models\\minorsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\models\\minorsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\wwwroot\\lib\\jquery-ui\\jquery-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\wwwroot\\lib\\jquery-ui\\jquery-ui.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|c:\\users\\anime\\iste 340\\ischoolwebappho\\ischoolwebappho\\models\\peoplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5080CCEE-041C-4B0B-BA5B-29F06DD144CE}|iSchoolWebAppHo\\iSchoolWebAppHo.csproj|solutionrelative:ischoolwebappho\\models\\peoplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "jquery-ui.css",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+              "RelativeToolTip": "iSchoolWebAppHo\\wwwroot\\lib\\jquery-ui\\jquery-ui.css",
+              "ViewState": "AQIAADQCAAAAAAAAAAAAAEUCAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-30T19:37:31.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Minors.cshtml",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\Minors.cshtml",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Home\\Minors.cshtml",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\Minors.cshtml",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Home\\Minors.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T18:49:49.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAiwEkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T13:51:35.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "iSchoolWebAppHo\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwEIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-04-25T14:25:15.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "iSchoolWebAppHo\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAADQAAAAAAAAAAAAAAEMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-16T14:18:21.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MinorsModel.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\MinorsModel.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Models\\MinorsModel.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\MinorsModel.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Models\\MinorsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:00:24.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseModel.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\CourseModel.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Models\\CourseModel.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\CourseModel.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Models\\CourseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:22:28.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAADwv60AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:54:03.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "People.cshtml",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\People.cshtml",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Home\\People.cshtml",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\People.cshtml",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Home\\People.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T14:17:04.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-29T05:05:30.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Degrees.cshtml",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\Degrees.cshtml",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Home\\Degrees.cshtml",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\Degrees.cshtml",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Home\\Degrees.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T18:23:38.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DegreesModel.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\DegreesModel.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Models\\DegreesModel.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\DegreesModel.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Models\\DegreesModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T13:58:42.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DynTest.cshtml",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\DynTest.cshtml",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Home\\DynTest.cshtml",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\DynTest.cshtml",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Home\\DynTest.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-22T15:08:44.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Program.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Program.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Program.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:30:48.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employment.cshtml",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\Employment.cshtml",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Home\\Employment.cshtml",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\Employment.cshtml",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Home\\Employment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-28T22:35:04.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmploymentModel.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\EmploymentModel.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Models\\EmploymentModel.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\EmploymentModel.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Models\\EmploymentModel.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAA6wEUAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T14:03:19.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PeopleModel.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\PeopleModel.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Models\\PeopleModel.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\PeopleModel.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Models\\PeopleModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAcwBYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:50:45.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "iSchoolWebAppHo\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T13:54:19.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AboutModel.cs",
+              "DocumentMoniker": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\AboutModel.cs",
+              "RelativeDocumentMoniker": "iSchoolWebAppHo\\Models\\AboutModel.cs",
+              "ToolTip": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\Models\\AboutModel.cs",
+              "RelativeToolTip": "iSchoolWebAppHo\\Models\\AboutModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T14:04:39.246Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

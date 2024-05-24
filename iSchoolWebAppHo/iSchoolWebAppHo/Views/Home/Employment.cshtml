@@ -1,0 +1,237 @@
+﻿@model iSchoolWebAppHo.Models.EmploymentModel
+@{
+    //Set the title of the page
+    ViewData["Title"] = Model.pageTitle;   //"Our iSchool Employment"
+}
+
+@* Display the page header *@
+<div class="page-header">
+    <h1>Employment</h1>
+</div>
+
+@* Hide the content by default *@
+<div id="hideMe" style="display:none">
+    <div id="employment">
+        @* Display introduction section *@
+        <div id="introduction">
+            <div id="introductionTitle">
+                @* Display the title if available *@
+                @if ((@Model.introduction.title != "") && (@Model.introduction.title != null))
+                {
+                    <h2>@Model.introduction.title</h2>
+                }
+            </div>
+            <div id="introductionContentOutside">
+                @* Iterate through each content data in the introduction section *@
+                @foreach (var contentData in @Model.introduction.content)
+                {
+                    @* Display the content data if title and description are available *@
+                    @if ((contentData.title != "") && (contentData.title != null) && (contentData.description != "") && (contentData.description != null))
+                    {
+                        <div class="introductionContentInside">
+                            <h3>@contentData.title</h3>
+                            <p>@contentData.description</p>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        @* Display degree statistics section *@
+        <div id="degreeStatistics">
+            <div id="degreeStatisticsTitle">
+                @* Display the title if available *@
+                @if ((@Model.degreeStatistics.title != "") && (@Model.degreeStatistics.title != null))
+                {
+                    <h3>@Model.degreeStatistics.title</h3>
+                }
+            </div>
+            <div id="degreeStatisticsContentOutside">
+                @* Iterate through each statistics data in the degree statistics section *@
+                @foreach (var statisticsData in @Model.degreeStatistics.statistics)
+                {
+                    @* Display the statistics data if value and description are available *@
+                    @if ((statisticsData.value != "") && (statisticsData.value != null) && (statisticsData.description != "") && (statisticsData.description != null))
+                    {
+                        <div class="k-card">
+                            <div class="k-card-header">
+                                <h4 class="k-card-title">@statisticsData.value</h4>
+                            </div>
+                            <div class="k-card-body">
+                                <p>@statisticsData.description</p>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        @* Display employers and careers section *@
+        <div id="employers_and_careers">
+            @* Display employers section *@
+            <div id="employers">
+                <div id="employerNames">
+                    <div id="employersTitle">
+                        @* Display the title if available *@
+                        @if ((@Model.employers.title != "") && (@Model.employers.title != null))
+                        {
+                            <h3>@Model.employers.title</h3>
+                        }
+                    </div>
+                    <div class="k-cards">
+                        @* Iterate through each employer name *@
+                        @foreach (var employerNames in @Model.employers.employerNames)
+                        {
+                            @* Display the employer name if available *@
+                            @if ((employerNames != "") && (employerNames != null))
+                            {
+                                <div class="k-card">
+                                    <div class="k-card-header">
+                                        <h4 class="k-card-title">@employerNames</h4>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            @* Display careers section *@
+            <div id="careers">
+                <div id="careerNames">
+                    <div id="careerTitle">
+                        @* Display the title if available *@
+                        @if ((@Model.careers.title != "") && (@Model.careers.title != null))
+                        {
+                            <h3>@Model.careers.title</h3>
+                        }
+                    </div>
+                    <div class="k-cards">
+                        @* Iterate through each career name *@
+                        @foreach (var careerNames in @Model.careers.careerNames)
+                        {
+                            @* Display the career name if available *@
+                            @if ((careerNames != "") && (careerNames != null))
+                            {
+                                <div class="k-card">
+                                    <div class="k-card-header">
+                                        <h4 class="k-card-title">@careerNames</h4>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+
+        @* Display cooperative education (coop) table *@
+        <div class="dataTableHeader">
+            @* Display the title if available *@
+            @if ((@Model.coopTable.title != "") && (@Model.coopTable.title != null))
+            {
+                <h3 class="dataTableHeader">@Model.coopTable.title</h3>
+            }
+        </div>
+        @* Display the coop table *@
+        <table id="coopTable" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Employer</th>
+                    <th>Degree</th>
+                    <th>City</th>
+                    <th>Term</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Iterate through each coop data *@
+                @foreach (var coopData in @Model.coopTable.coopInformation)
+                {
+                    @* Display the coop data if all fields are available *@
+                    @if ((coopData.employer != "") && (coopData.employer != null) &&
+                         (coopData.degree != "") && (coopData.degree != null) &&
+                         (coopData.city != "") && (coopData.city != null) &&
+                         (coopData.term != "") && (coopData.term != null))
+                    {
+                        <tr>
+                            <td>@coopData.employer</td>
+                            <td>@coopData.degree</td>
+                            <td>@coopData.city</td>
+                            <td>@coopData.term</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Employer</td>
+                    <td>Degree</td>
+                    <td>City</td>
+                    <td>Term</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br />
+        <br />
+
+        @* Display employment table *@
+        <div class="dataTableHeader">
+            @* Display the title if available *@
+            @if ((Model.employmentTable.title != "") && (Model.employmentTable.title != null))
+            {
+                <h3>@Model.employmentTable.title</h3>
+            }
+        </div>
+        @* Display the employment table *@
+        <table id="employmentTable" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Employer</th>
+                    <th>Degree</th>
+                    <th>City</th>
+                    <th>Title</th>
+                    <th>Start Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @* Iterate through each employment data *@
+                @foreach (var employmentData in @Model.employmentTable.professionalEmploymentInformation)
+                {
+                    @* Display the employment data if all fields are available *@
+                    @if ((employmentData.employer != "") && (employmentData.employer != null) &&
+                         (employmentData.degree != "") && (employmentData.degree != null) &&
+                         (employmentData.city != "") && (employmentData.city != null) &&
+                         (employmentData.title != "") && (employmentData.title != null) &&
+                         (employmentData.startDate != "") && (employmentData.startDate != null))
+                    {
+                        <tr>
+                            <td>@employmentData.employer</td>
+                            <td>@employmentData.degree</td>
+                            <td>@employmentData.city</td>
+                            <td>@employmentData.title</td>
+                            <td>@employmentData.startDate</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Employer</td>
+                    <td>Degree</td>
+                    <td>City</td>
+                    <td>Title</td>
+                    <td>Start Date</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>

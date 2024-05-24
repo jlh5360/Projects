@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eBYCh26eslvle2XYrFHPYblgjwfM5g3f2L7NoubdM47uB4iDcvKXRFdUMGwYctH3PDDni29kdo+wQ08PY6OcXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anime\\ISTE 340\\iSchoolWebAppHo\\iSchoolWebAppHo\\iSchoolWebAppHo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anime\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

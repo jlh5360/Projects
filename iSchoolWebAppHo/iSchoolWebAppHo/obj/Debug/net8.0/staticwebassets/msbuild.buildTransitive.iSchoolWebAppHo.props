@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\iSchoolWebAppHo.props" />
+</Project>
