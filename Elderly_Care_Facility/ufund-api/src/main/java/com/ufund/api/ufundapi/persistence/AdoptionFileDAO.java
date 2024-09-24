@@ -89,13 +89,7 @@ public class AdoptionFileDAO {
             return false;
         }
         // Check if the filename is set to "doNotSave," indicating that saving is not required
-        if (filename == "doNotSave"){
-            return true;
-        }
-        if (objectMapper == null) {
-            return false;
-        }
-        if (filename == "doNotSave"){
+        if ((filename != null) && (filename.equals("doNotSave"))){
             return true;
         }
         // Retrieve an array of Elderly objects
@@ -125,7 +119,7 @@ public class AdoptionFileDAO {
         }
 
         // Check if the filename is set to "doNotSave"
-        if (filename == "doNotSave") {
+        if ((filename != null) && (filename.equals("doNotSave"))) {
             // Skip loading if the filename is set to "doNotSave"
             return true;
         }
@@ -133,18 +127,6 @@ public class AdoptionFileDAO {
         // Initialize the adoption TreeMap and reset the nextId counter
         adoption = new TreeMap<>();
         nextId = 1;
-        
-        // Check if ObjectMapper is not configured
-        if (objectMapper == null) {
-            // Unable to load if ObjectMapper is not configured
-            return false;
-        }
-
-        // Check if the filename is set to "doNotSave"
-        if (filename == "doNotSave") {
-            // Skip loading if the filename is set to "doNotSave"
-            return true;
-        }
 
         // Read Elderly array from the specified file using the ObjectMapper
         Elderly[] elderlyArray = objectMapper.readValue(new File(filename), Elderly[].class);

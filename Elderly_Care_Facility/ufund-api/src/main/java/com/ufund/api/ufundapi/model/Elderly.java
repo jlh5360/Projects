@@ -132,4 +132,9 @@ public class Elderly {
         }
     }
 
+    @Override
+    public int hashCode() {
+        return age;
+    }
+
 }

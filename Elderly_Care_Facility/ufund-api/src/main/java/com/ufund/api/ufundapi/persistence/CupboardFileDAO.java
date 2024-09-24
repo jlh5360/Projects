@@ -129,7 +129,7 @@ public class CupboardFileDAO {
         }
 
         // Check if the filename is set to "doNotSave"
-        if (filename == "doNotSave") {
+        if ((filename != null) && (filename.equals("doNotSave"))) {
             // Data is considered loaded if the filename is set to "doNotSave"
             return true;
         }

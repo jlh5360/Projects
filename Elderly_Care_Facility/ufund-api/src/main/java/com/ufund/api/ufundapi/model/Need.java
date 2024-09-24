@@ -111,5 +111,10 @@ public class Need {
         }
     }
 
+    @Override
+    public int hashCode() {
+        return amount;
+    }
+
 }
 

@@ -20,11 +20,11 @@ An online U-Fund system built in Java 17 using the Spring API framework for the 
 
 1. Clone the repository and go to the root directory.
 2. Start API backend server
-    1. Execute `mvn compile exec:java`in the ufund-api directory in the terminal
+   1. Execute `mvn compile exec:java`in the ufund-api directory in the terminal
 3. Start frontend server
-    1. Run `npm install` from inside the ufund-ui direcotry
-    2. Run `npm install -g @angular/cli` to install the Angular cli tool
-    3. Run `ng start --open` to start the frontend server and access the website
+   1. Run `npm install` from inside the ufund-ui direcotry
+   2. Run `npm install -g @angular/cli` to install the Angular cli tool
+   3. Run `npm start --open` to start the frontend server and access the website
 
 ## Known bugs and disclaimers
 
@@ -73,7 +73,7 @@ To run tests on all the tiers in isolation do this:
 2. IP address of target machine running the app.
 3. Execute commands found in the How to Run section above.
 4. Access via ip address of computer hosting to see website.
-    - When you make changes to the frontend code you will see your changes reflected here.
+   - When you make changes to the frontend code you will see your changes reflected here.
 5. If you make changes to the API you must restart the backend server each time to see changes take effect.
 
 ## License
@@ -81,8 +81,3 @@ To run tests on all the tiers in isolation do this:
 MIT License
 
 See LICENSE for details.
-
-
-
-
-

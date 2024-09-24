@@ -103,7 +103,7 @@ public class UserFileDAO {
         }
 
         // Check if the filename is set to "doNotSave"
-        if (filename == "doNotSave"){
+        if ((filename != null) && (filename.equals("doNotSave"))){
             // Return true if the filename is set to "doNotSave"
             return true;
         }
@@ -154,7 +154,7 @@ public class UserFileDAO {
         }
 
         // Check if the filename is set to "doNotSave"
-        if (filename == "doNotSave") {
+        if ((filename != null) && (filename.equals("doNotSave"))) {
             // Return true if the filename is set to "doNotSave"
             return true;
         }

@@ -15,7 +15,7 @@ import java.io.IOException;
 @Component
 public class CartFileDAO {
 
-    Map<Integer, Need> cart;
+    private final Map<Integer, Need> cart = new TreeMap<>();
 
     private static int nextId;
     private String filename;
@@ -110,7 +110,6 @@ public class CartFileDAO {
      */
     private boolean load() throws IOException {
         // Initialize the cart TreeMap and reset the nextId counter
-        cart = new TreeMap<>();
         nextId = 1;
     
         // Check if ObjectMapper is not configured
@@ -211,7 +210,6 @@ public class CartFileDAO {
             // Check if the cart is not empty
             if (cart.size() != 0) {
                 // Reset the cart to an empty TreeMap
-                cart = new TreeMap<>();
                 
                 // Persist the changes by saving to the file (may throw an IOException)
                 save();

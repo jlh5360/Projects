@@ -5,7 +5,7 @@
 <button class="make" [style.display]="isAdmin ? 'block' : 'none'" (click)="createNeed()">Create Need</button>
 <div class="needs">
   <div class="need" *ngFor="let need of needs">
-    <img src="../../assets/images/need.png" class="need-image">
+    <img src="../../assets/images/need.png" class="need-image" alt="Need image">
     <p class="need-name">{{need.name}}</p>
     <p class="need-cost">${{need.cost}}</p>
     <p class="need-amount">Amount: {{need.amount}}</p>
